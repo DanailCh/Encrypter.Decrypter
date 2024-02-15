@@ -118,7 +118,7 @@ namespace Cryptography.Services.EncryptersDictionaries
             }
             else
             {
-                throw new InvalidOperationException("Char not supported");
+                throw new InvalidOperationException("ASCII-Char not supported");
             }
             
         }
@@ -131,7 +131,7 @@ namespace Cryptography.Services.EncryptersDictionaries
             }
             else
             {
-                throw new InvalidOperationException("String not in dictionary");
+                throw new InvalidOperationException("ASCII-Char not supported");
             }
         }
     }

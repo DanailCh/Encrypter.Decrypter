@@ -88,6 +88,7 @@ namespace Cryptography.Services
             var sb = new StringBuilder();
            foreach (char c in message.ToCharArray())
             {
+
                 try
                 {
                     sb.Append(_asciiEncrypter.GetValue(c));

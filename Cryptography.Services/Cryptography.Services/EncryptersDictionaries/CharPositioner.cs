@@ -47,7 +47,7 @@ namespace Cryptography.Services.EncryptersDictionaries
             }
             else
             {
-                throw new InvalidOperationException("Char not supported");
+                throw new InvalidOperationException("Positioner-Char not supported");
             }
         }
         public char GetChar(int input)
@@ -59,7 +59,7 @@ namespace Cryptography.Services.EncryptersDictionaries
             }
             else
             {
-                throw new InvalidOperationException("String not in dictionary");
+                throw new InvalidOperationException("Positioner-Char not supported");
             }
         }
     }

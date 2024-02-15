@@ -9,9 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Cryptography.Services">
-      <HintPath>..\..\Cryptography.Services\Cryptography.Services\bin\Release\net6.0\Cryptography.Services.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\Cryptography.Services\Cryptography.Services\Cryptography.Services.csproj" />
   </ItemGroup>
 
 </Project>
